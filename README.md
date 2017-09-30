@@ -74,11 +74,12 @@ Define and describe 3 patterns that you have found. </br>
 
 ### Task 3 - Selenium (For SE)
 
-(Click Here)[https://github.ncsu.edu/assinsin/SE_HW2/blob/assinsin/Selenium/src/test/java/selenium/tests/WebTest.java] to go to the WebTest.java, all four unit tests are updated at this location. 
+[Click Here](https://github.ncsu.edu/assinsin/SE_HW2/blob/assinsin/Selenium/src/test/java/selenium/tests/WebTest.java) to go to the WebTest.java, all four unit tests are updated at this location. 
 
+![Screenshot](https://github.ncsu.edu/assinsin/SE_HW2/blob/assinsin/images/PassedTest%20-%20Screenshot.png)
 
 =====================================================================================
 
 ### References:
-1. (Design Patterns - Source Making)[https://sourcemaking.com/design_patterns]
-2. (Software Design - Non OO Design Patterns)[https://blog.cdemi.io/tag/design-patterns/]
+1. [Design Patterns - Source Making](https://sourcemaking.com/design_patterns)
+2. [Software Design - Non OO Design Patterns](https://blog.cdemi.io/tag/design-patterns/)
