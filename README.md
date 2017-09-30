@@ -7,7 +7,7 @@
 ## Software Engineering - CSC510 - Homework 2
 =====================================================================================
 
-### Task 1 - OO Paterns
+### Task 1 - OO Patterns
 There are many design patterns that have been defined and used in building software. For object-oriented design patterns, they can be described in three major categories:
 
 * Creational Patterns
@@ -27,7 +27,7 @@ a) **Factory Method**
 
 b) **Singleton**
   * Why? Application needs one, and only one, instance of an object. Additionally, lazy initialization and global access are necessary. </br>
-  * Ensure a class has only one instance, and provide a global point of access to it.
+  * Ensure a class has only one instance, and provide a global point of access to it. </br>
   * "Just-in-time initialization" and "Initialization on first use" encapsulated.</br>
   * It's simpler to pass an object resource as a reference to the objects that need it, rather than letting objects access the resource globally.</br>
 
@@ -55,9 +55,9 @@ a) **Chain of Responsibility**
   * Chain the receiving objects and pass the request along the chain until an object handles it. </br>
 
 b) **Visitor**
-  * Why? To perform many distinct and unrelated operations on node objects in a heterogeneous aggregate structure. Also, one doesn't want to query the type of each node and cast the pointer to the correct type before performing the desired operation.
-  * Used when the classic technique is needed for recovering lost type information.
-  * Represent an operation to be performed on the elements of an object structure. 
+  * Why? To perform many distinct and unrelated operations on node objects in a heterogeneous aggregate structure. Also, one doesn't want to query the type of each node and cast the pointer to the correct type before performing the desired operation.</br>
+  * Used when the classic technique is needed for recovering lost type information.</br>
+  * Represent an operation to be performed on the elements of an object structure. </br>
 
 =====================================================================================
 
@@ -82,11 +82,11 @@ Define and describe 3 patterns that you have found. </br>
 
 
 * **Cache-Aside Pattern**
-  * "Applications that rely heavily on a data-store usually can benefit greatly from using the Cahche-Aside Pattern."[2]</br>
-  * Data Reading: It is used to retrieve an item from the data store. If it is available in cache, it is retireve directly. Else, one has to query the data store. </br>
+  * "Applications that rely heavily on a data-store usually can benefit greatly from using the Cache-Aside Pattern."[2]</br>
+  * Data Reading: It is used to retrieve an item from the data store. If it is available in cache, it is retrieve directly. Else, one has to query the data store. </br>
   * Updating Data: If data is updated, then either the cache should be updated or the old should be invalidated. </br>
   * Lifetime of Cache: Expiration policy should be ensured, so that data matches the pattern of access.</br>
-  * Consistensy: Cache-Aside pattern does not guarantee consistency between the data store and the cache. Pub/Sub pattern can be used.</br>
+  * Consistency: Cache-Aside pattern does not guarantee consistency between the data store and the cache. Pub/Sub pattern can be used.</br>
   * "If used correctly, this pattern can improve performance and help maintain consistency between the cache and the underlying data store."[2]</br>
 
 
