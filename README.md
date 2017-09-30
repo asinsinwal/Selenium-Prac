@@ -23,33 +23,41 @@ a) **Factory Method**
   * Conceptual "virtual" constructor design. </br>
   * Factory method are routinely specified by an architectural framework, and then implemented by the user of the framework.</br>
   * Factory methods are usually called within Template Methods. </br>
-  * As "new" operator considered harmful. Therer is a difference between requesting an object and creating one. The "new" operator always creates an object, and fails to encapsulate object creation.
+  * As "new" operator considered harmful. Therer is a difference between requesting an object and creating one. The "new" operator always creates an object, and fails to encapsulate object creation.</br>
 
 b) **Singleton**
-  * Why? Application needs one, and only one, instance of an object. Additionally, lazy initialization and global access are necessary. 
+  * Why? Application needs one, and only one, instance of an object. Additionally, lazy initialization and global access are necessary. </br>
   * Ensure a class has only one instance, and provide a global point of access to it.
-  * "Just-in-time initialization" and "Initialization on first use" encapsulated.
-  * It's simpler to pass an object resource as a reference to the objects that need it, rather than letting objects access the resource globally.
+  * "Just-in-time initialization" and "Initialization on first use" encapsulated.</br>
+  * It's simpler to pass an object resource as a reference to the objects that need it, rather than letting objects access the resource globally.</br>
 
 2. Structural Design Patterns
 
 a) **Decorator**
-  * Why? To add behavior or state to individual objects at run-time. Inheritance is not feasible because it is static and applies to an entire class. 
-  * Intention is to wrapping a gift, putting it in a box, and wrapping the box.
-  * Client-specified embellishment of a core object by recursively wrapping it.
-  * Decorator is more transparent to the client, as decorator enhances an object's reponsibilities. As a consequence, decorator supports recursive composition, which isn't possible with pure Adapters.
+  * Why? To add behavior or state to individual objects at run-time. Inheritance is not feasible because it is static and applies to an entire class. </br>
+  * Intention is to wrapping a gift, putting it in a box, and wrapping the box.</br>
+  * Client-specified embellishment of a core object by recursively wrapping it.</br>
+  * Decorator is more transparent to the client, as decorator enhances an object's reponsibilities. As a consequence, decorator supports recursive composition, which isn't possible with pure Adapters.</br>
 
 
 b) **Proxy**
-  * Why? To support resource-hungry objects, and don't want to intantiate such objects unless and until they are actually requested by the client.
-  * 
+  * Why? To support resource-hungry objects, and don't want to intantiate such objects unless and until they are actually requested by the client.</br>
+  * Intention is to provide a surrogate or placeholder for another object to control access to it.</br>
+  * When one has to add a wrapper and delegation to protect the real component from undue complexity. </br>
+  * Needed when one uses an extra level of indirection to support distributed, controlled, or intelligent access. </br>
 
 3. Behavioral Design Patterns
 
 a) **Chain of Responsibility**
-  * 
+  * Why? To handle a stream of requests, we need number of "handler" or "processing element" or "node" objects. </br>
+  * Used when an object-oriented linked list with recursive traversal. </br>
+  * When launch-and-leave requests with a single processing pipeline that contains many possible handlers. </br>
+  * Chain the receiving objects and pass the request along the chain until an object handles it. </br>
+
 b) **Visitor**
-  * 
+  * Why? To perform many distinct and unrelated operations on node objects in a heterogeneous aggregate structure. Also, one doesn't want to query the type of each node and cast the pointer to the correct type before performing the desired operation.
+  * Used when the classic technique is needed for recovering lost type information.
+  * Represent an operation to be performed on the elements of an object structure. 
 
 =====================================================================================
 
