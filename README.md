@@ -62,7 +62,7 @@ Define and describe 3 patterns that you have found. </br>
 
 
 * **Cache-Aside Pattern**
-"Applications that rely heavily on a data-store usually can benefit greatly from using the Cahche-Aside Pattern." </br>
+> "Applications that rely heavily on a data-store usually can benefit greatly from using the Cahche-Aside Pattern." </br>
 > Data Reading: It is used to retrieve an item from the data store. If it is available in cache, it is retireve directly. Else, one has to query the data store. </br>
 > Updating Data: If data is updated, then either the cache should be updated or the old should be invalidated. </br>
 > Lifetime of Cache: Expiration policy should be ensured, so that data matches the pattern of access.</br>
@@ -76,6 +76,7 @@ Define and describe 3 patterns that you have found. </br>
 
 [Click Here](https://github.ncsu.edu/assinsin/SE_HW2/blob/assinsin/Selenium/src/test/java/selenium/tests/WebTest.java) to go to the WebTest.java, all four unit tests are updated at this location. 
 
+**Screenshot** From Eclipse
 ![Screenshot](https://github.ncsu.edu/assinsin/SE_HW2/blob/assinsin/images/PassedTest%20-%20Screenshot.png)
 
 =====================================================================================
