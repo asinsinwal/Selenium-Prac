@@ -15,7 +15,7 @@ There are many design patterns that have been defined and used in building softw
 * Behavioral patterns
 Define and describe 2 design patterns from each category. </br>
 #### Solution: 
-1. Creation Design Patterns - Related to class instantiation. Divided into class-creation patterns and object-creational patterns. 
+1. **Creation Design Patterns** - Related to class instantiation. Divided into class-creation patterns and object-creational patterns. 
 
 a) **Factory Method**
   * Why? To handle a standardized architectural model for a range of applications, but allow for individual applications to define their own domain objects and provide for their instantiation. </br>
@@ -31,7 +31,7 @@ b) **Singleton**
   * "Just-in-time initialization" and "Initialization on first use" encapsulated.</br>
   * It's simpler to pass an object resource as a reference to the objects that need it, rather than letting objects access the resource globally.</br>
 
-2. Structural Design Patterns
+2. **Structural Design Patterns** - Related to all about Class and Object composition. Concerned about the ways to compose objects to obtain new functionality.
 
 a) **Decorator**
   * Why? To add behavior or state to individual objects at run-time. Inheritance is not feasible because it is static and applies to an entire class. </br>
@@ -46,7 +46,7 @@ b) **Proxy**
   * When one has to add a wrapper and delegation to protect the real component from undue complexity. </br>
   * Needed when one uses an extra level of indirection to support distributed, controlled, or intelligent access. </br>
 
-3. Behavioral Design Patterns
+3. **Behavioral Design Patterns** - Related to all about Class's objects communication. Concerned with communication between objects.
 
 a) **Chain of Responsibility**
   * Why? To handle a stream of requests, we need number of "handler" or "processing element" or "node" objects. </br>
@@ -97,7 +97,7 @@ Define and describe 3 patterns that you have found. </br>
 [Click Here](https://github.ncsu.edu/assinsin/SE_HW2/blob/assinsin/Selenium/src/test/java/selenium/tests/WebTest.java) to go to the WebTest.java, all four unit tests are updated at this location. 
 
 **Screenshot** From Eclipse
-![Screenshot](https://github.ncsu.edu/assinsin/SE_HW2/blob/assinsin/images/PassedTest%20-%20Screenshot.png)
+![Screenshot](https://github.ncsu.edu/assinsin/SE_HW2/blob/master/images/PassedTest%20-%20Screenshot.png)
 
 =====================================================================================
 
